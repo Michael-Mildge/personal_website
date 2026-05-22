@@ -1,5 +1,6 @@
 nav{
-    display: flex;
-    flex-flow: column;
+    display: grid;
+    min-height: 10vh;
+    grid-template-columns: repeat(3 1fr);
 }
     
